@@ -13,10 +13,10 @@ os.system("title Fake Identity Generator V7")
 
 # Define TK
 
-mainRoot = Tk()
-mainRoot.title("Fake Identity Generator V7")
-mainRoot.geometry("800x500")
-mainRoot.mainloop()
+#mainRoot = Tk()
+#mainRoot.title("Fake Identity Generator V7")
+#mainRoot.geometry("800x500")
+#mainRoot.mainloop()
 
 
 def adminst():
