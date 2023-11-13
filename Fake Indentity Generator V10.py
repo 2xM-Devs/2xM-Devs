@@ -64,14 +64,14 @@ print(
                 Identity
                         Generator
                         
-                          ________________
-           \            /               /
-            \          /               /
-             \        /               /
-              \      /          _____/_____
-               \    /               /
-                \  /               /
-                 \/               /
+                                  _________
+           \            /   /|    |      /|
+            \          /   / |    |     / |
+             \        /   /  |    |    /  |
+              \      /   /   |    |   /   |
+               \    /        |    |  /    |
+                \  /         |    | /     |
+                 \/          |    |/______|
      """
 )
 print("1 - Lowest, least info, 6 - Lv. 1 BEAST MODE")
@@ -95689,15 +95689,7 @@ def temp5():
         "717560684",
         "607496999",
     ]
-    ipaddr4 = (
-        random.randint(0, 255),
-        ".",
-        random.randint(0, 255),
-        ".",
-        random.randint(0, 255),
-        ".",
-        random.randint(0, 255),
-    )
+
     ipaddr6 = [
         "09ff:f4c6:1362:968d:205d:d6cb:7c3b:853b",
         "46ca:7591:a3c8:b3f4:96c0:9334:5239:3b04",
@@ -107372,7 +107364,7 @@ def temp5():
         "9d35:773f:2b07:55c4:3496:e629:b170:fdd0",
         "97fa:405d:746a:f1f1:677b:1bf5:9a4e:0885",
     ]
-    ipaddr6g=random.choice(ipaddr6)
+    ipaddr6g = random.choice(ipaddr6)
     print("Name: ", random.choice(name))
     print("Age: ", random.randint(18, 85))
     print("Address: ", random.choice(address))
@@ -107388,8 +107380,17 @@ def temp5():
     print("Email:", random.choice(email))
     print("Phone Number:", random.choice(phnm))
     print("Password:", random.choice(password))
-    print(f"IpV4 address: {ipaddr4}")
-    print(f"IpV6 address: {ipaddr6g}")
+    print(
+        "IpV4 address:",
+        random.randint(0, 255),
+        ".",
+        random.randint(0, 255),
+        ".",
+        random.randint(0, 255),
+        ".",
+        random.randint(0, 255),
+    )
+    print("IpV6 address:", ipaddr6g)
 
 
 run = 1
