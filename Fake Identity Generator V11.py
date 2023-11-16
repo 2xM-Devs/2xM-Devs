@@ -30140,7 +30140,7 @@ def temp4manu():
     print("Address: ", random.choice(address))
     print("                  ")
     print("Email:", random.choice(email))
-    print("Phone Number:", phnm)
+    print("Phone Number:", random.choice(phnm))
 
 
 def temp5manu():
