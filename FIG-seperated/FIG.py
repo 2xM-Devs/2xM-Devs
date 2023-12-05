@@ -51,16 +51,26 @@ def automatic():
         os.system(commands[oschoice])
         creds()
         time.sleep(2)
-        
-    
+def image():
+     while 0 == 0:
+         os.system("clear")
+         creds()
+         time.sleep(2)
+         os.system("wget http://thispersondoesnotexist.com/")
+         os.system("chafa index.html")
+         time.sleep(2)
+         os.system("rm index.html")
 
 choice = int(input("""Choose:
     1 -- Manual mode
-    2 -- Automatic mode """))
+    2 -- Automatic mode 
+    3 -- Image mode (linux only)"""))
 if choice == 1:
     manual()
 elif choice == 2:
     automatic()
+elif choice == 3:
+    image() 
 
 
 
