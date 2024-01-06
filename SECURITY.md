@@ -2,15 +2,22 @@
 
 ## Supported Versions
 
+FIG Vesions::
 
 
-
-| Version | Supported          |
+| Version |  is  Supported?    |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| V11     | :white_check_mark: after update  |
+| V11     | :x: before update  |
+| V10     | :white_check_mark: |
+| V8      | :x:                |
+| V7      | :white_check_mark: |
+| V6      | :x:                |
+| V5      | :white_check_mark: |
+| V4      | :white_check_mark: |
+| V3      | :x:                |
+| V2      | :white_check_mark: |
+| V1      | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
